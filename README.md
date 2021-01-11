@@ -13,6 +13,14 @@ Resources for the test (user login data) - src/test/resources/testcase.propertie
 
 Browsers used for testing - Chrome and Firefox, can be run with UI mode, or in "headless" mode.
 
+Set:
+>-Dbrowser=chrome (default choice)
+>
+>-Dbrowser=firefox
+>
+>-Dheadless=0 (default choice, with UI)
+>
+>-Dheadless=1 (run browser without UI)
 
 Run tests: 
 1. from IDE (run testcase src/test/java/WishListTest.java)
